@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="JetflixDebugTestSuite">
+    <listeners>
+        <listener class="cucumber.listener.ExtentCucumberFormatter" />
+    </listeners>
+    <packages>
+        <package name="org.jetflix.tests">
+            <test name="Functional Testing">
+                <classes>
+                    <class name="org.tests.TestBase"/>
+                    <class name="steps.JetflixSteps"/>
+                    <class name="steps.JetflixFilter"/>
+                </classes>
+            </test>
+        </package>
+    </packages>
+</suite>
